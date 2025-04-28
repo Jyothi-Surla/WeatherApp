@@ -4,7 +4,7 @@ This is a simple command-line Weather Application built with Python.
 
 ## Features
 - Fetches live weather data using OpenWeatherMap API.
-- Displays current weather description and temperature.
+- Displays current weather description, Temperature in Celsius, Humidity percentage and Wind speed in m/s
 - Takes city name input from the user.
 
 ## Technologies
