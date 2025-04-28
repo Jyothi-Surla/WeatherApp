@@ -16,8 +16,13 @@ def get_weather(city_name):
         data = response.json()
         weather = data['weather'][0]['description']
         temperature = data['main']['temp']
+        humidity = data['main']['humidity']    
+        wind_speed = data['wind']['speed']      
+
         print(f"Weather in {city_name}: {weather}")
         print(f"Temperature: {temperature}°C")
+        print(f"Humidity: {humidity}%")         
+        print(f"Wind Speed: {wind_speed} m/s")  
     else:
         print("City not found! Please check the spelling.")
 
